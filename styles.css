@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Anaheim&family=Lato&family=Outfit:wght@700&family=Roboto+Slab:wght@300;400&display=swap');
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+.q-card {
+    width: 18rem;
+    height: 30rem;
+    margin: auto;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.qr-img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.q-card div {
+    padding: 10px;
+}
+
+.q-card h2 {
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    font-size: 1.5rem;
+}
+
+.q-card p {
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+}
