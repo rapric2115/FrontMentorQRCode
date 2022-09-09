@@ -6,31 +6,30 @@ body {
     height: 100vh;
     display: flex;
     font-family: 'Outfit', sans-serif;
-    font-size: 15px;
+    font-size: 1em;
 }
 
 .q-card {
-    width: 18rem;
-    height: 30rem;
+    max-width: 18rem;
     margin: auto;
-    border-radius: 15px;
+    border-radius: 1em;
     background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15px;
+    padding: 1em;
 }
 
 .qr-img {
     width: 100%;
-    border-radius: 15px;
+    border-radius: 1em;
 }
 
 .q-card div {
-    padding: 10px;
+    padding: .9em;
 }
 
-.q-card h2 {
+.q-card h1 {
     text-align: center;
     color: hsl(218, 44%, 22%);
     font-size: 1.5rem;
